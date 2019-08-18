@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" intial-scale="1.0">
+    <style>
+       
+            
+        body{
+            background-image:url("img/pawel-czerwinski-blQgqQorMRE-unsplash.jpg");
+                
+            
+        }
+        .image img{
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 50%;
+            border: 20px;
+            display: block;
+            margin-top: 30px;
+            animation-name: bod;
+            animation-duration: 20s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            animation-delay: 5s;
+        }
+        @keyframes bod{
+            0%{border-color: red;}
+            25%{border-color: wheat;}
+            75%{border-color: blue;}
+            100%{border-color: black;}
+        }
+    
+        header{
+            text-align: center;
+            margin: auto;
+            font-size: 40px;
+        
+        }
+        .name{
+            text-align: center;
+            color: antiquewhite;
+            
+        }
+        .font{
+            list-style-type: none;
+            float: left;
+            background-image: url("img/david-clode-FLAHpMC1Yp4-unsplash.jpg");
+            width: 200px;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 50px;
+            animation-name: changes;
+            animation-duration: 20s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            animation-delay: 5s;
+            
+        }
+        @keyframes changes {
+             0%{background-image: url("img/fabio-oyXis2kALVg-unsplash.jpg");}
+            25%{background-image: url("img/html.jpg");}
+            75%{background-image: url("img/niklas-liniger-4V2aSLZRDao-unsplash.jpg");}
+            100%{background-image: url("img/simone-hutsch-K1W9OjEgacI-unsplash%20(1).jpg");}
+            }
+    
+    
+        section{
+            font-size: 50px;
+            text-align: center;
+            text-shadow: 20px 20px 10px #888888;
+            padding: 30px;
+            margin-top: auto;
+            background-image: url("img/mahima.jpg");
+            width: 100%;
+            height: 100px;
+            animation-name: sect;
+            animation-duration: 20s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            animation-direction: alternate-reverse;
+            animation-delay: 5s;
+        }
+        @keyframes sect {
+             0%{background-image: url("img/fabio-oyXis2kALVg-unsplash.jpg");}
+            25%{background-image: url("img/html.jpg");}
+            75%{background-image: url("img/niklas-liniger-4V2aSLZRDao-unsplash.jpg");}
+            100%{background-image: url("img/simone-hutsch-K1W9OjEgacI-unsplash%20(1).jpg");}
+            }
+    
+    
+    </style>
+    </head>
+    <body>
+        <div class="font">
+                <li><a href="about.html" target="_blank">ABOUT ME</a></li>
+                <li><a href="skill.html" target="_blank">SKILL</a></li>
+                <li><a href="cont.html" target="_blank">CONTACT ME</a></li>
+                <li><a href="image.html" target="_blank">IMAGE</a></li>
+        </div>
+        <div class="image">
+            <img src="img/mahima.jpg" alt="my pic" width="200" height="200">
+        </div>
+        <header><span style="color: aqua" >I am Mahima !</span></header>
+        <p class="name">web developer</p>
+        <section>
+           WELCOME TO MY PORTFOLIO!
+        </section>
+    
+    
+    
+    
+    
+    </body>
