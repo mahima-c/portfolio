@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>picture</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" intial-scale="1.0">
+    </head>
+    <style>
+        * {
+             box-sizing: border-box;
+            }
+       
+         
+            .images::after{
+                  content: "";
+                  clear: both;
+                  display: block;
+            }
+    
+      /*.header{
+            text-align: center;
+            border: 10px;
+            box-shadow: 10px 10px 10px pink;
+            background-color: antiquewhite;
+            animation-name: anim;
+            animation-delay: 1s;
+            animation-direction: alternate-reverse;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            
+                
+        }
+        @keyframes anim{
+            0% {background-color: red;}
+            25% {background-color: aqua;}
+            50%{background-color: yellow;}
+            75%{background-color: silver;}
+            100%{background-color: antiquewhite;}*/
+      
+        .image{
+            margin-top: auto;
+        }  
+        
+        
+        
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+        [class*="col-"] {
+                      float: left;
+                      padding: 5px;
+                      border: 1px solid pink;
+                    }
+        @media only screen and (max-width: 768px) {
+              /* For mobile phones: */
+              [class*="col-"] {
+                  
+                  
+                width: 100%;
+              }
+           
+    
+    </style>
+<body>
+    <div class="header" style="text-align: center"  >
+         PICTURE!
+        </div>
+    
+    <div class="image">
+        <div class="col-3">
+            <img src="img/mahima.jpg" alt="pic" width="100%" height="400px">
+        </div>
+        <div class="col-3">
+            <img src="img/anuuuu.jpg" width="100%" height="400px">
+        </div>
+        <div class="col-3">
+            <img src="img/crossing.jpg" width="100%" height="400px">
+        </div>
+        <div class="col-3">
+            <img src="img/park.jpg" width="100%" height="400px">
+        </div>
+    
+         <div class="col-6">
+            <img src="img/my%20girl.jpg" width="100%" height="400px">
+         </div>
+         <div class="col-6">
+            <img src="img/child.jpg" width="100%" height="400px">
+         </div>
+    
+         <div class="col-3">
+            <img src="img/dab.jpg" width="100%" height="400px">
+        
+        </div>
+        
+         <div class="col-3">
+            <img src="img/dog.jpg" width="100%" height="400px">
+        
+        </div>
+        <div class="col-3">
+            <img src="img/frame.jpg" width="100%" height="400px">
+        </div>
+        <div class="col-3">
+            <img src="img/guru.jpg" width="100%" height="400px">
+        </div>
+        <div class="col-3">
+            <img src="img/holi.jpg" width="100%" height="400px">
+        </div>
+        <div class="col-6">
+            <img src="img/laptop.jpg" width="100%" height="400px">
+        </div>
+   
+    </div>
+    </body>
+</html>
