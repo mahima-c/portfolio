@@ -7,10 +7,10 @@
     
     <style>
         .text h1{
+            margin-top: 50px;
             text-align: center;
             font-size: 40px;
             border: 10px;
-            border-color: aquamarine;
             padding: 10px;
             width: 100%;
             background-color: antiquewhite;
@@ -24,9 +24,7 @@
             margin: 20px;
         }
         
-        
-        
-        
+     
         .image img {
             border-radius: 50%;
             margin-left: auto;
@@ -34,13 +32,14 @@
              display: block;
         }
         .me{
+            margin top: 30px;;
             text-align: center;
             font-size: 20px;
             background-color: azure;
             border: 5px;
             text-shadow: 5px 5px 5px #888888;
         }
-        a:link, a:visited {
+        .max a:link, a:visited {
               margin: auto;
              border: 5px;
               background-color: #f44336;
@@ -52,9 +51,46 @@
             width: 100%;
          }
 
-        a:hover, a:active {
+        .max a:hover, a:active {
                 background-image: url(photo-1513506003901-1e6a229e2d15.jpg);
         
+        }
+        ul {
+            list-style-type: none;
+            top: 0;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            position: fixed;
+            background-color: black;
+        }
+        
+        li a {
+            color: aliceblue;
+            display: block;
+            padding: 8px;
+            text-align: center;
+            text-decoration: none;
+     
+            
+        }
+        li{
+            float: left;
+            border-right: 1px solid #888;
+            margin-left: 25px;
+            margin-right: 25px;
+            
+        }
+        
+        li a:hover {
+             background-color: #555;
+             color: white;
+               }
+        @media screen and (max-width: 600px) {
+            li{display: block;
+            width: 100%;}
+            .text h1{
+                margin-top: 150px;}
         }
         .detail{
             text-align: center;
@@ -92,8 +128,8 @@
         }
         @keyframes back{
             0%{ background-image: url("pic1.jpg");}
-            25%{background-image: url("pic2.jpg");}
-            75%{background-image: url(img/maxresdefault.jpg);}
+            25%{background-image: url("img/light.jpg");}
+            75%{background-image: url("img/lighty.jpg");}
             100%{background-image: url("pic3.jpg");}
         }
         
@@ -101,6 +137,13 @@
     </style>
     </head>
     <body>
+        <ul>
+            <li><a href="aboutnew.html">ABOUT ME</a></li>
+           <li><a href="image.html">IMAGE</a></li>
+           <li><a href="main.html">portfolio</a></li>
+            <li><a href="skill.html">SKILL</a></li>
+
+        </ul>
         <div class="text">
         <h1>CONTACT ME </h1>
         </div>
@@ -108,12 +151,12 @@
         <div class="image">
             <img src="img/mahima.jpg" alt="my pic" width="200px" height="200px">
         </div>
-        
+        <div class="max">
         <a href="https://www.facebook.com/profile.php?id=100026526193354" target="_blank">facebook</a>
         <a href="https://www.sololearn.com/Profile/14091357/HTML" target="_blank">sololearn</a>
         <a href="https://www.linkedin.com/in/mahima-gupta-470653172/" target="_blank">linkdin</a>
         <a href="https://www.instagram.com/__mahima__c/" target="_blank">instragram</a>
-        
+        </div>
        <div class="detail">
             <p><b>EMAIL ID:</b><spam style="background-color:palegoldenrod;">mahimagupta84000@gmail.com</spam></p>
             <p><b>MOBILE NO:</b><spam style="background-color: palegoldenrod;">6205092335</spam></p>
