@@ -9,6 +9,7 @@
             
         body{
             background-image:url("img/pawel-czerwinski-blQgqQorMRE-unsplash.jpg");
+            background-size: 100% 100%;
                 
             
         }
@@ -18,21 +19,10 @@
             border-radius: 50%;
             border: 20px;
             display: block;
-            margin-top: 30px;
-            animation-name: bod;
-            animation-duration: 20s;
-            animation-timing-function: ease-in-out;
-            animation-iteration-count: infinite;
-            animation-direction: alternate-reverse;
-            animation-delay: 5s;
+            margin-top: 100px;
+           
         }
-        @keyframes bod{
-            0%{border-color: red;}
-            25%{border-color: wheat;}
-            75%{border-color: blue;}
-            100%{border-color: black;}
-        }
-    
+        
         header{
             text-align: center;
             margin: auto;
@@ -45,27 +35,58 @@
             
         }
         .font{
-            list-style-type: none;
-            float: left;
-            background-image: url("img/david-clode-FLAHpMC1Yp4-unsplash.jpg");
-            width: 200px;
-            color: white;
-            padding: 14px 25px;
             text-align: center;
-            text-decoration: none;
             display: inline-block;
             width: 100%;
             margin-bottom: 50px;
-            animation-name: changes;
-            animation-duration: 20s;
-            animation-timing-function: ease-in-out;
-            animation-iteration-count: infinite;
-            animation-direction: alternate-reverse;
-            animation-delay: 5s;
             
         }
+        ul {
+            list-style-type: none;
+            position: fixed;
+            padding: 0;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            margin: 0;
+            background-color: black;
+            
+            
+            
+        }
+        li a{
+            margin-left: 25px;
+            margin-right: 25px;
+            color: aliceblue;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+     
+         
+            
+        }
+        li{
+            float: left;
+            border-right: 1px solid #888;
+            
+        }
+        
+        li a:hover {
+             background-color: #555;
+             color: white;
+               }
+        @media screen and (max-width: 600px) {
+            li{display: block;
+            width: 100%;}
+            section {
+                font-size: 30px;
+            }
+            
+        }
+        
+        
         @keyframes changes {
-             0%{background-image: url("img/fabio-oyXis2kALVg-unsplash.jpg");}
+             0%{background-image: url("img/light.jpg");}
             25%{background-image: url("img/html.jpg");}
             75%{background-image: url("img/niklas-liniger-4V2aSLZRDao-unsplash.jpg");}
             100%{background-image: url("img/simone-hutsch-K1W9OjEgacI-unsplash%20(1).jpg");}
@@ -76,6 +97,7 @@
             font-size: 50px;
             text-align: center;
             text-shadow: 20px 20px 10px #888888;
+            color: white;
             padding: 30px;
             margin-top: auto;
             background-image: url("img/mahima.jpg");
@@ -100,10 +122,12 @@
     </head>
     <body>
         <div class="font">
-                <li><a href="about.html" target="_blank">ABOUT ME</a></li>
-                <li><a href="skill.html" target="_blank">SKILL</a></li>
-                <li><a href="cont.html" target="_blank">CONTACT ME</a></li>
-                <li><a href="image.html" target="_blank">IMAGE</a></li>
+            <ul>
+                <li><a href="about.html" >ABOUT ME</a></li>
+                <li><a href="skill.html" >SKILL</a></li>
+                <li><a href="cont.html" >CONTACT ME</a></li>
+                <li><a href="image.html" >IMAGE</a></li>
+                </ul>
         </div>
         <div class="image">
             <img src="img/mahima.jpg" alt="my pic" width="200" height="200">
